@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1538270024144" clover="3.2.0">
+  <project timestamp="1538270024144" name="All files">
+    <metrics statements="72" coveredstatements="70" conditionals="28" coveredconditionals="23" methods="20" coveredmethods="17" elements="120" coveredelements="110" complexity="0" loc="72" ncloc="72" packages="5" files="8" classes="8">
+      <package name="models">
+        <metrics statements="23" coveredstatements="23" conditionals="5" coveredconditionals="4" methods="6" coveredmethods="4"/>
+        <file name="index.js" path="/Users/admin/Projects/personal/expressurlapp/models/index.js">
+          <metrics statements="15" coveredstatements="15" conditionals="5" coveredconditionals="4" methods="2" coveredmethods="2"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="18" count="3" type="cond" truecount="3" falsecount="0"/>
+          <line num="21" count="2" type="stmt"/>
+          <line num="22" count="2" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+        </file>
+        <file name="metric.js" path="/Users/admin/Projects/personal/expressurlapp/models/metric.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+        </file>
+        <file name="token.js" path="/Users/admin/Projects/personal/expressurlapp/models/token.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="server">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="app.js" path="/Users/admin/Projects/personal/expressurlapp/server/app.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="server.middleware.auth">
+        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/Users/admin/Projects/personal/expressurlapp/server/middleware/auth/index.js">
+          <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="9" count="4" type="stmt"/>
+          <line num="11" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="15" count="3" type="stmt"/>
+          <line num="21" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="25" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="server.middleware.duration">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <file name="index.js" path="/Users/admin/Projects/personal/expressurlapp/server/middleware/duration/index.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="5" type="stmt"/>
+          <line num="6" count="5" type="stmt"/>
+          <line num="11" count="5" type="stmt"/>
+        </file>
+      </package>
+      <package name="server.routes.index.get">
+        <metrics statements="28" coveredstatements="26" conditionals="17" coveredconditionals="13" methods="11" coveredmethods="10"/>
+        <file name="index.js" path="/Users/admin/Projects/personal/expressurlapp/server/routes/index/get/index.js">
+          <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+        </file>
+        <file name="lib.js" path="/Users/admin/Projects/personal/expressurlapp/server/routes/index/get/lib.js">
+          <metrics statements="22" coveredstatements="20" conditionals="11" coveredconditionals="7" methods="10" coveredmethods="9"/>
+          <line num="1" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="18" count="2" type="stmt"/>
+          <line num="19" count="2" type="stmt"/>
+          <line num="24" count="2" type="cond" truecount="3" falsecount="1"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="28" count="2" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="32" count="2" type="stmt"/>
+          <line num="38" count="2" type="stmt"/>
+          <line num="40" count="2" type="cond" truecount="3" falsecount="2"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="44" count="2" type="stmt"/>
+          <line num="47" count="2" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
